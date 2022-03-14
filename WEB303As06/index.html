@@ -3,26 +3,172 @@
 <head>
     <link href="css/style.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/accordion.css">
-    <link rel="stylesheet" href="css/tabbed.css">
 	
 </head>
 
 <body>
-    <h1>Virat Kholi</h1>
-    <ul class=“accordion”>
-        <li>
-          <button class=“accordion-control”>
-            Images
-          </button>
-            <div class=“accordion-panel”>
-      <!-- Content goes here -->
-                <img src="./img/VK.jpg">
-            </div>
-        </li>
-    </ul>
+    <div id="content">
+        <h1>Virat Kohli</h1>
+        <ul class="accordion">
+            <li>
+
+                <button class="accordion-control">
+                    <h2>Images</h2>
+                </button>
+                <div class="accordion-panel">
+                    <img class="col" src="./img/Vk.jpg" alt="Virat Kholi">
+                    <img class="col" src="./img/VK2.jpg" alt="Virat Kholi">
+                </div>
+
+                <button class="accordion-control">
+                    <h2>Personal Information</h2> 
+                </button>
+                <div class="accordion-panel">
+                    Virat Kohli born 5 November 1988 is an Indian international cricketer and former captain of the Indian national team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman. He is often considered one of the best batsmen of his era and some critics believe him to be one of the best limited-overs batsmen in history. Between 2013 and 2022, he captained the India cricket team in more than 200 matches across all three formats.
+                </div>
+
+                <button class="accordion-control">
+                    <h2>Career Statics</h2>
+                </button>
+                <div class="accordion-panel">
+                   <table>
+                       <tr>
+                           <th>Competition</th>
+                           <th>Test</th>
+                           <th>ODI</th>
+                           <th>T20I</th>
+                       </tr>
+                       <tr>
+                           <td>Matches</td>
+                           <td>100</td>
+                           <td>260</td>
+                           <td>97</td>
+                       </tr>
+                       <tr>
+                           <td>Runs scored</td>
+                           <td>8,007</td>
+                           <td>12,311</td>
+                           <td>3,296</td>
+                       </tr>
+                       <tr>
+                           <td>Batting average</td>
+                           <td>50.35</td>
+                           <td>58.07</td>
+                           <td>51.50</td>
+                       </tr>
+                   </table>
+                </div>
+            </li>
+        </ul>
+
+        <h1>Dale Steyn</h1>
+        <ul class="accordion">
+            <li>
+
+                <button class="accordion-control">
+                    <h2>Images</h2>
+                </button>
+                <div class="accordion-panel">
+                    <img class="col" src="./img/Dale-Steyn.jpg" alt="Dale Steyn">
+                    <img class="col" src="./img/DS.png" alt="Dale">
+                </div>
+
+                <button class="accordion-control">
+                    <h2>Personal Information</h2> 
+                </button>
+                <div class="accordion-panel">
+                    Dale Willem Steyn born 27 June 1983 is a South African former professional cricketer who played for the South African Cricket Team. He is often regarded as one of the greatest fast bowlers of all time and the best Test bowler of his generation. During the 2007-08 season, Steyn achieved a tally of 78 wickets at an average of 16.24 and was subsequently rewarded with the ICC 2008 Test Cricketer of the Year Award.                </div>
+
+                <button class="accordion-control">
+                    <h2>Career Statics</h2>
+                </button>
+                <div class="accordion-panel">
+                   <table>
+                       <tr>
+                           <th>Competition</th>
+                           <th>Test</th>
+                           <th>ODI</th>
+                           <th>T20I</th>
+                       </tr>
+                       <tr>
+                           <td>Matches</td>
+                           <td>93</td>
+                           <td>125</td>
+                           <td>47</td>
+                       </tr>
+                       <tr>
+                           <td>Wickets</td>
+                           <td>439</td>
+                           <td>196</td>
+                           <td>64</td>
+                       </tr>
+                       <tr>
+                           <td>Bowling average</td>
+                           <td>22.95</td>
+                           <td>25.95</td>
+                           <td>18.35</td>
+                       </tr>
+                   </table>
+                </div>
+            </li>
+        </ul>
+
+        <h1>Refrence Links</h1>
+
+<ul class="tab-list">
+    <li class="active">
+      <a class="tab-control" id="magnusclick" href="#magnus">Images</a>
+    </li>
+    <li>
+      <a class="tab-control" href="#hikaru">Personal information</a>
+    </li>
+    <li>
+      <a class="tab-control" href="#levi">Career Statics</a>
+    </li>
+    <li>
+        <a class="tab-control" href="#Ved">Made By</a>
+      </li>
+      <li>
+        <a class="tab-control" href="#ID">Student ID</a>
+      </li>
+  </ul>
+
+  <div class="tab-panel active" id="magnus">
+    <h3>Virat Kohli</h3>
+    Image Source:-<a href="https://instagram.com/virat.kohli?utm_medium=copy_link">Instagram</a>
+    <h3>Dale Steyn</h3>
+    Image Source:-<a href="https://www.dawn.com/news/1643716">Dawn</a>
+  </div>
+
+  <div class="tab-panel" id="hikaru">
+    <h3>Virat Kohli</h3>
+      Source:-<a href="https://en.wikipedia.org/wiki/Virat_Kohli">Wikipedia</a>
+      <h3>Dale Steyn</h3>
+      Source:-<a href="https://en.wikipedia.org/wiki/Dale_Steyn">Wikipedia</a>
+  </div>
+
+  <div class="tab-panel" id="levi">
+    <h3>Virat Kohli</h3>
+    Source:-<a href="https://www.espncricinfo.com/player/virat-kohli-253802">ESPN CricInfo</a>
+    <h3>Dale Steyn</h3>
+    Source:-<a href="https://www.espncricinfo.com/player/dale-steyn-47492">ESPN CricInfo</a>
+  </div>
+
+  <div class="tab-panel" id="Ved">
+    <h3>Ved Patil</h3>
+  </div>
+
+  <div class="tab-panel" id="ID">
+    <h3>0781502</h3>
+  </div>
+
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
+
+

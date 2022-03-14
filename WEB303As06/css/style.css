@@ -4,4 +4,90 @@ html, body{
 }
 h1{
     text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
 }
+img{
+    padding-right: 33.33px;
+    padding-left: 50px;
+}
+.col{
+    float: left;
+    width: 40%;
+}
+.accordion-panel::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+table{
+    color: cornsilk;
+    text-align: center;
+    padding: 20px;
+    padding-left: 300px;
+}
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    padding-left: 130px;
+    font-size: xx-large;
+}
+/* Accordion starts */
+
+ul.accordion{
+    list-style: none;
+    margin-left: 17%;
+    padding-left: 0;
+}
+button.accordion-control{
+    background-color:bisque;
+    padding: 16px;
+    display: block;
+    width: 80%;   
+}
+.accordion-panel {
+    display: none;
+    padding: 10px;
+    width: 78%;   
+    border: 1px solid black;
+    font-size: 24px;
+    background-color: black;
+    color: blanchedalmond;
+}
+/* Accordion ends */
+
+/* Tabbed Starts */
+ul.tab-list {
+    list-style: none;
+    padding-left: 10px;
+}
+ul.tab-list li {
+    display: inline-block;
+    margin-left: 156px;
+    padding: 8px;
+    border: 1px solid blue;
+    padding-left: 10px;
+}
+ul.tab-list li.active {
+    background-color: green;
+}
+ul.tab-list li.active a {
+    color: white;
+}
+.tab-panel {
+    display: none;
+    margin-left: 470px;
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    border: 5px solid black;
+}
+.tab-panel.active {
+    display: block;
+}
+/* Tabbed Ends */
