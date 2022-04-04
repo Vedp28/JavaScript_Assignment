@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "fname":"Jethalal",
+        "lname":"Gada",
+        "played":"Dilip Joshi",
+        "age":"53",
+        "income":"$2,500"
+    },
+    {
+        "id": "2",
+        "fname":"Daya",
+        "lname":"Gada",
+        "played":"Disha Vakani",
+        "age":"43",
+        "income":"$2,300"
+    },
+    {
+        "id": "3",
+        "fname":"Tarak",
+        "lname":"Mehta",
+        "played":"Shailesh Lodha",
+        "age":"52",
+        "income":"$2,000"
+    },
+    {
+        "id": "4",
+        "fname":"Anjali",
+        "lname":"Mehta",
+        "played":"Neha Mehta",
+        "age":"43",
+        "income":"$1,000"
+    },
+    {
+        "id": "5",
+        "fname":"Champaklal",
+        "lname":"Gada",
+        "played":"Amit Bhatt",
+        "age":"49",
+        "income":"$1,000"
+    },
+    {
+        "id": "6",
+        "fname":"Aatmaram",
+        "lname":"Bhide",
+        "played":"Mandar Chandwadkar",
+        "age":"45",
+        "income":"$1,700"
+    },
+    {
+        "id": "7",
+        "fname":"Madhvi",
+        "lname":"Bhide",
+        "played":"Sonalika Joshi",
+        "age":"45",
+        "income":"$1,000"
+    }
+]
