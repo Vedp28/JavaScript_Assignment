@@ -5,6 +5,7 @@
         "lname":"Gada",
         "played":"Dilip Joshi",
         "age":"53",
+        "DOB":"2022-03-05",
         "income":"$2,500"
     },
     {
@@ -13,6 +14,7 @@
         "lname":"Gada",
         "played":"Disha Vakani",
         "age":"43",
+        "DOB":"2022-03-05",
         "income":"$2,300"
     },
     {
@@ -21,6 +23,7 @@
         "lname":"Mehta",
         "played":"Shailesh Lodha",
         "age":"52",
+        "DOB":"2022-03-05",
         "income":"$2,000"
     },
     {
@@ -29,6 +32,7 @@
         "lname":"Mehta",
         "played":"Neha Mehta",
         "age":"43",
+        "DOB":"2022-03-05",
         "income":"$1,000"
     },
     {
@@ -37,6 +41,7 @@
         "lname":"Gada",
         "played":"Amit Bhatt",
         "age":"49",
+        "DOB":"2022-03-05",
         "income":"$1,000"
     },
     {
@@ -45,6 +50,7 @@
         "lname":"Bhide",
         "played":"Mandar Chandwadkar",
         "age":"45",
+        "DOB":"2022-03-05",
         "income":"$1,700"
     },
     {
@@ -53,6 +59,7 @@
         "lname":"Bhide",
         "played":"Sonalika Joshi",
         "age":"45",
+        "DOB":"2022-03-05",
         "income":"$1,000"
     }
 ]
